@@ -1,11 +1,11 @@
-# Zypher Network Token (ZYP)
+# Zypher Token (POP)
 
 <div align="center">
 
 ![Zypher Network](https://img.shields.io/badge/Issuer-Zypher_Network-blue)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.28-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Total Supply](https://img.shields.io/badge/Total%20Supply-10B%20ZYP-orange)
+![Total Supply](https://img.shields.io/badge/Total%20Supply-10B%20POP-orange)
 
 **The official ERC-20 token of Zypher Network - ZK Computing Layer for Trustless AI agents & large DApps, powered by distributed mining. Home of Proof of Prompt & Proof of Inference.**
 
@@ -26,12 +26,12 @@
 
 ## 🔍 Overview
 
-The Zypher Network Token (ZYP) serves as the core value carrier of the Zypher Network ecosystem,
+The Zypher Token (POP) serves as the core value carrier of the Zypher Network ecosystem,
 functioning as mining rewards, AI Agent verification payment, governance token,
 and cross-platform collaboration medium within the ZK-powered trustless computing network.
 
 Built on the battle-tested OpenZeppelin ERC-20 standard,
-ZYP enables seamless transactions, staking rewards, privacy-preserving AI services,
+POP enables seamless transactions, staking rewards, privacy-preserving AI services,
 and decentralized governance participation across the entire ecosystem.
 
 ### Key Features
@@ -45,10 +45,10 @@ and decentralized governance participation across the entire ecosystem.
 
 | Parameter             | Value                           |
 | --------------------- | ------------------------------- |
-| **Token Name**        | Zypher Network                  |
-| **Token Symbol**      | ZYP                             |
+| **Token Name**        | Zypher Token                    |
+| **Token Symbol**      | POP                             |
 | **Decimals**          | 18                              |
-| **Total Supply**      | 10,000,000,000 ZYP (10 Billion) |
+| **Total Supply**      | 10,000,000,000 POP (10 Billion) |
 | **Contract Standard** | ERC-20                          |
 | **Mintable**          | Yes                             |
 | **Burnable**          | Yes                             |
@@ -56,12 +56,12 @@ and decentralized governance participation across the entire ecosystem.
 
 ## 🌐 Multi-Chain Deployment
 
-ZYP will be deployed across multiple blockchain networks to ensure broad accessibility and interoperability.
+POP will be deployed across multiple blockchain networks to ensure broad accessibility and interoperability.
 The deployment follows a strategic phased approach with rigorous security measures and supply cap management.
 
 ### Deployment Strategy
 
-The total supply of ZYP tokens is capped at **10 billion tokens** across all blockchain networks.
+The total supply of POP tokens is capped at **10 billion tokens** across all blockchain networks.
 The deployment process is carefully managed through:
 
 - **Phased Rollout**: Strategic release of tokens across different networks based on ecosystem maturity and user demand
@@ -71,9 +71,6 @@ The deployment process is carefully managed through:
 
 ### Phase 1 Networks
 
-The initial deployment phase focuses on established, high-liquidity networks:
-
-- **Ethereum Mainnet** - Primary deployment and governance hub
 - **BNB Chain** - High throughput ecosystem for DeFi and gaming applications
 
 ### Network Configuration
@@ -91,7 +88,7 @@ Each deployment maintains identical token parameters while leveraging network-sp
 
 ## 🔍 Audit Information
 
-🔄 **Audit Status**: Pending - Third-party security audit scheduled
+🔄 **Audit Status**: Ongoing - ScaleBit security audit scheduled
 
 _This section will be updated with audit reports and findings upon completion._
 
@@ -104,7 +101,7 @@ If you discover any security vulnerabilities, please report them responsibly:
 
 ## 📈 Token Distribution
 
-The initial 10 billion ZYP tokens will be distributed according to the tokenomics outlined in the Zypher Network whitepaper:
+The initial 10 billion POP tokens will be distributed according to the tokenomics outlined in the Zypher Network whitepaper:
 
 - **Seed Investors**: 7.5%
 - **Investors**: 10.0%
