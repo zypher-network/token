@@ -69,4 +69,25 @@ describe('ZypherNetworkToken', function () {
       .to.be.revertedWithCustomError(token, 'ERC20ExceededCap')
       .withArgs(cap + 1n, cap)
   })
+
+  it('should follow the 2 step ownership transfer process', async function () {
+    const [owner1, owner2] = await ethers.getSigners()
+
+    const token = await loadFixture(deploy({ OWNER: owner1.address as Address }))
+    expect(await token.owner()).to.equal(owner1.address)
+
+    await expect(token.transferOwnership(owner2.address))
+      .to.emit(token, 'OwnershipTransferStarted')
+      .withArgs(owner1.address, owner2.address)
+
+    expect(await token.owner()).to.equal(owner1.address)
+    expect(await token.pendingOwner()).to.equal(owner2.address)
+
+    await expect(token.connect(owner2).acceptOwnership())
+      .to.emit(token, 'OwnershipTransferred')
+      .withArgs(owner1.address, owner2.address)
+
+    expect(await token.owner()).to.equal(owner2.address)
+    expect(await token.pendingOwner()).to.equal(ethers.ZeroAddress)
+  })
 })

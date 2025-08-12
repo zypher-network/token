@@ -6,8 +6,9 @@ import { ERC20Burnable } from "@openzeppelin/contracts/token/ERC20/extensions/ER
 import { ERC20Capped } from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Capped.sol";
 import { ERC20Permit } from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
+import { Ownable2Step } from "@openzeppelin/contracts/access/Ownable2Step.sol";
 
-contract ZypherNetworkToken is ERC20, ERC20Burnable, ERC20Capped, ERC20Permit, Ownable {
+contract ZypherNetworkToken is ERC20, ERC20Burnable, ERC20Capped, ERC20Permit, Ownable2Step {
     constructor(address initialOwner)
         ERC20("Zypher Token", "POP")
         ERC20Permit("Zypher Token")
