@@ -71,7 +71,8 @@ The deployment process is carefully managed through:
 
 ### Phase 1 Networks
 
-- **BNB Chain** - High throughput ecosystem for DeFi and gaming applications
+- **BNB Chain**
+- **Ethereum Mainnet**
 
 ### Network Configuration
 
@@ -88,16 +89,7 @@ Each deployment maintains identical token parameters while leveraging network-sp
 
 ## 🔍 Audit Information
 
-🔄 **Audit Status**: Ongoing - ScaleBit security audit scheduled
-
-_This section will be updated with audit reports and findings upon completion._
-
-### Responsible Disclosure
-
-If you discover any security vulnerabilities, please report them responsibly:
-
-- **Email**: <research@zypher.network>
-- **Bug Bounty**: Details available on our website
+Audited by **ScaleBit**: [Report](https://scalebit.xyz/reports/20250813-Zypher-Network-Token-Final-Audit-Report.pdf)
 
 ## 📈 Token Distribution
 
