@@ -1,0 +1,9 @@
+{
+  "address": "0xA3cfB853339b77F385B994799B015cB04b208Fe6",
+  "startBlock": 57435226,
+  "name": "Zypher Token",
+  "symbol": "POP",
+  "decimals": 18,
+  "owner": "0x765b570a2e673DE9095E1593f8853791955A1707",
+  "deployer": "0x8BeBaA4d9E5906368366084eE48aB789c5071987"
+}
