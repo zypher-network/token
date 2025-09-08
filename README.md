@@ -95,14 +95,16 @@ Audited by **ScaleBit**: [Report](https://scalebit.xyz/reports/20250813-Zypher-N
 
 The initial 10 billion POP tokens will be distributed according to the tokenomics outlined in the Zypher Network whitepaper:
 
-- **Seed Investors**: 7.5%
-- **Investors**: 10.0%
-- **Advisors**: 2.5%
-- **Exchange Listing & Liquidity Reserve**: 5.0%
-- **Contributors**: 5.0%
-- **Ecosystem (Games & Developer Acquisition)**: 5.0%
-- **Protocol Development**: 10.0%
-- **Community (Mining Rewards & Initial Airdrop)**: 55%
+|                   Name                    |      % |                 Alloc Wallet                 |               Receiving Wallet               |
+| :---------------------------------------: | -----: | :------------------------------------------: | :------------------------------------------: |
+|               Seed Investor               | 10.00% | `0x66385B72E18Af6A4d4abd5E6893876cEfe2fd9E2` |                                              |
+|             Series A Investor             | 10.00% | `0x35d2c12b94A4bedcD0b454846538b51D06b484bd` |                                              |
+|           Protocol Development            | 10.75% | `0xb58A1A4475E37B9D9B79538cEA8bBfCd6F1D6352` | `0x8b4eC8Be9efb2E2C2099972c1aD9E0016182A3B0` |
+| Ecosystem, Community & Follow-on Airdrops | 11.50% | `0x75590843626E3E1a2A933511D4678Ef4B28C4420` | `0xB9ff275CB68aFBF152FDda1b878b986160423056` |
+|                 Liquidity                 |  5.75% | `0x3180E4ad13Df164a4DF8a141dFbcD43A4Fcd6168` | `0x7a83406b42Ad1c1F4a84D7fDE92deFE2242Ade8e` |
+|               Prover Mining               | 45.00% | `0xFd4ad418a690311331c85C229AbD939447AC761d` | `0x897eAdc04de916608F711DCE4B16AC42459a7E8a` |
+|                   Team                    |  5.00% | `0x9B10C0DDee911BE6BBfb97Acedb61a845a29B8D8` |                                              |
+|                  Advisor                  |  2.00% | `0x02c219c3D4084639C7Ed4E58D224258904e1aD00` |                                              |
 
 _Detailed vesting schedules and distribution mechanics are available in our documentation._
 
